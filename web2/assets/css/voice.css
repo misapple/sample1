@@ -1,0 +1,324 @@
+
+@charset "utf-8";
+/* CSS Document */
+@media screen and (min-width: 480px) {
+   /* 表示領域が480px以上の場合に適用するスタイル */
+/*フレーム*/
+#outframe {
+	width:960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.contents {
+	width: 84%;
+	margin-left: auto;
+	margin-right: auto;
+}
+body{
+	font-family:"Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", Meiryo, メイリオ, sans-serif;
+}
+
+/*↑*/
+
+#bar-cont{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	font-size:10px;
+	padding:10px;
+	text-align:right;
+	}
+
+/*ヘッダー*/
+#bar-head {
+	height:30px;
+	width:auto;
+	background-color:#48D1CC;
+	background-position:top;
+}
+
+.header-cont{
+	width:100%;
+	height:auto;
+	text-align:right;
+}
+
+a{
+	text-decoration:none;
+}
+
+
+
+.map {
+	color:#000000;
+}
+
+.QA {
+	color:#000000;
+}
+
+.map:hover {
+	color:#9B9B9B;
+}
+
+.QA:hover {
+	color:#9B9B9B;
+}
+
+.logo{
+	display:inline-block;
+	width:20%;
+	height:auto;
+	margin-left:auto;
+	padding:10px
+	}
+
+.tel{
+	display:inline-block;
+	width:50%;
+	height:auto;
+	font-size:10px;
+	text-align:right;
+}
+
+
+.num{
+	font-size:18px;
+}
+
+.btn1{
+	width:100px;
+	height:auto;
+	padding:5px;
+}
+.btn2{
+	width:100px;
+	height:auto;
+	padding:5px;
+}
+
+.nav {
+	margin-right:auto;
+	margin-left:auto;
+	padding-bottom:20px;
+}
+
+.nav1 {
+	text-align:center;
+	display:inline-block;
+	width:24%;
+	height:auto;
+	font-size:24px;
+	color:#9B9B9B;
+	border-right: 1px solid #B5B5B5;
+}
+
+.nav2 {
+	text-align:center;
+	display:inline-block;
+	width:24%;
+	height:auto;
+	font-size:24px;
+	color:#9B9B9B;
+	border-right: 1px  solid #B5B5B5;
+
+}
+
+.nav3 {
+	text-align:center;
+	display:inline-block;
+	width:25%;
+	height:auto;
+	font-size:24px;
+	color:#000000;
+	border-right: 1px  solid #B5B5B5;
+	border-bottom:5px solid #48D1CC;
+}
+
+.nav4 {
+	text-align:center;
+	display:inline-block;
+	width:25%;
+	height:auto;
+	font-size:24px;
+	color:#9B9B9B;
+}
+
+
+/*ナビhover*/
+.nav1:hover {
+	text-align:center;
+	text-decoration:none;
+	display:inline-block;
+	width:24%;
+	height:auto;
+	font-size:24px;
+	color:#000000;
+	border-right: 1px  solid #B5B5B5;
+}
+
+.nav2:hover {
+	text-align:center;
+	text-decoration:none;
+	display:inline-block;
+	width:24%;
+	height:auto;
+	font-size:24px;
+	color:#000000;
+	border-right: 1px solid #B5B5B5;
+}
+
+.nav3:hover {
+	text-align:center;
+	text-decoration:none;
+	display:inline-block;
+	width:25%;
+	height:auto;
+	font-size:24px;
+	color:#000000;
+	border-right: 1px  solid #B5B5B5;
+}
+
+.nav4:hover {
+	text-align:center;
+	text-decoration:none;
+	display:inline-block;
+	width:25%;
+	height:auto;
+	font-size:24px;
+	color:#000000;
+}
+
+#main {
+	width:100%;
+	height:auto;
+	margin-bottom:20px;
+}
+
+/*コンテンツ部分*/
+.topic{
+	width:100%;
+	height:auto;
+	text-align:left;
+	font-size:24px;
+	border-left: 5px solid #48D1CC;
+	border-bottom:1px solid #48D1CC;
+	padding-left:5px;
+	padding-top:10px;
+	margin-top:2%;
+	margin-bottom:2%;
+}
+/*コンテンツ部分*/
+
+
+.voice-list1 {
+	width:100%;
+	height:350px;
+	background-image:url(../img/voice1.jpg);
+	margin-top:10px;
+	text-align:right;
+}
+
+.voice-box{
+	width:450px;
+	height:auto;
+	display:inline-block;
+	text-align:left
+}
+
+.voice-ttl1{
+	font-size:24px;
+	width:450px;
+	height:auto;
+	padding:20px;
+	border-bottom: 2px dotted #49D1CD;
+}
+
+.voice1 {
+	display:block;
+	font-size:18px;
+	width:450px;
+	height:auto;
+	padding:20px;
+}
+
+
+.voice-name1 {
+	display:block;
+	font-size:12px;
+	width:450px;
+	height:auto;
+	padding-left:20px;
+	text-align:right;
+}
+
+
+.voice-list2 {
+	width:100%;
+	height:350px;
+	background-image:url(../img/voice2.jpg);
+	margin-top:20px;
+}
+
+.voice-ttl2{
+	font-size:24px;
+	width:450px;
+	height:auto;
+	padding:20px;
+	border-bottom: 2px dotted #49D1CD;
+}
+
+.voice2 {
+	display:block;
+	font-size:18px;
+	width:450px;
+	height:auto;
+	padding:20px;
+}
+
+
+.voice-name2 {
+	display:block;
+	font-size:12px;
+	width:450px;
+	height:auto;
+	padding-left:20px;
+	text-align:right;
+}
+
+.graph-p {
+	font-color:#000000;
+	font-size:24px;
+	text-align:center;
+	margin-top:20px;
+	border-bottom:1px solid #48D1CC;
+}
+
+.graph {
+	width:100%;
+	height:auto;
+}
+
+
+
+.page-top{
+	display : block;
+	width : 100%;
+	text-align : right;
+}
+/*フッター部分*/
+#footer {
+	height:100px;
+	background-color:#48D1CC;
+	background-position:top;
+	padding: 10px;
+}
+.footer-cont{
+	width:100%;
+	height:auto;
+	text-align:right;
+	margin-top:10px
+}
+
+}
